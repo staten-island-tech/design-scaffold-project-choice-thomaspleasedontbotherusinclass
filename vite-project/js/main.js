@@ -1,4 +1,5 @@
 import "../styles/style.css";
+import { MenuItems } from "./array";
 
 document.querySelector("#app").innerHTML = `
   <h1>Hello Vite!</h1>
