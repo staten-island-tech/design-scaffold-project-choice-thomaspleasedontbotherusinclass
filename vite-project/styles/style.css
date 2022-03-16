@@ -6,3 +6,27 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark-green: #1e3231;
+  --green: #8d9f7f;
+  --teal: #11b4e8;
+  --black: #000;
+  --white: #fff;
+
+  /*Typography*/
+  --h1: 4.209rem;
+  --h2: 3.157rem;
+  --h3: 2.369rem;
+  --h4: 1.777rem;
+  --h5: 1.333rem;
+}
