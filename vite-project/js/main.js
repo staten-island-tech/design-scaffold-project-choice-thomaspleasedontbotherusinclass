@@ -1,7 +1,12 @@
 import "../styles/style.css";
 import { MenuItems } from "./array";
-
-document.querySelector("#app").innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`;
+import { DOMSelectors } from "./DOMSelectors";
+console.log(MenuItems);
+console.log(DOMSelectors);
+const Entrees = MenuItems.filter((Entrees) => Entrees.type == "Entree");
+Entrees.forEach((Entrees) => {
+  DOMSelectors.MainBody.insertAdjacentHTML(
+    "afterbegin",
+    `<p>${Entrees.description}</p>`
+  );
+});
