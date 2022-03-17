@@ -1,0 +1,41 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+.flexboxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90vw;
+  margin: 5rem auto;
+}
+.flexbox-content {
+  border: solid #32292f 10px;
+  background-color: #5762d5;
+  width: 90%;
+  height: 20rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10%;
+  padding: 2rem;
+}
+.text {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin: 1rem auto;
+}
+.subtext {
+  font-size: 1.5rem;
+  color: white;
+  text-align: left;
+  margin: 0.5rem auto;
+}

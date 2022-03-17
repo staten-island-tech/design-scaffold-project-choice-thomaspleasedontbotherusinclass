@@ -1,2 +1,2 @@
-const DOMSelectors = { MainBody: document.querySelector(".mainbody") };
+const DOMSelectors = { MainBody: document.querySelector(".flexboxes") };
 export { DOMSelectors };
