@@ -56,3 +56,15 @@ body,
   --h4: 1.777rem;
   --h5: 1.333rem;
 }
+
+.light {
+  --words: var(--black);
+  --background: var(--light-green);
+  --card-background: var(--mint);
+}
+
+.dark {
+  --words: var(--white);
+  --background: var(--dark-green);
+  --card-background: var(--green);
+}
