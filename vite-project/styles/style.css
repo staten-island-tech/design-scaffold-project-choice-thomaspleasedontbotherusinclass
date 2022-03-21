@@ -17,8 +17,10 @@ body,
 }
 
 :root {
+  --green: #4d4e2c;
   --dark-green: #1e3231;
-  --green: #8d9f7f;
+  --light-green: #babd89;
+  --mint: #d8dabe;
   --teal: #11b4e8;
   --black: #000;
   --white: #fff;
@@ -29,4 +31,16 @@ body,
   --h3: 2.369rem;
   --h4: 1.777rem;
   --h5: 1.333rem;
+}
+
+.light {
+  --words: var(--black);
+  --background: var(--light-green);
+  --card-background: var(--mint);
+}
+
+.dark {
+  --words: var(--white);
+  --background: var(--dark-green);
+  --card-background: var(--green);
 }
