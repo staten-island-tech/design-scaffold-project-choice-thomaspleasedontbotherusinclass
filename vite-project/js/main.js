@@ -13,34 +13,88 @@ console.log(Entrees);
 console.log(Sides);
 console.log(ADrinks);
 console.log(Drinks);
-Entrees.forEach((Entrees) => {
-  DOMSelectors.flexboxes.insertAdjacentHTML(
-    "afterbegin",
-    `<div class="flexbox-content">
-    <h3 class="text">${Entrees.item}</h3>
-    <img
-    src=""
-    alt="${Entrees.item}"/>
-    <p class="subtext">${Entrees.description}</p>
-  </div>`
-  );
+DOMSelectors.entreesbtn.addEventListener("click", function () {
+  DOMSelectors.flexboxes.innerHTML = "";
+  Entrees.forEach((Entrees) => {
+    DOMSelectors.flexboxes.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="flexbox-content">
+      <h3 class="text">${Entrees.item}</h3>
+      <img
+      src="${Entrees.img}"
+      alt="${Entrees.item}"/>
+      <p class="subtext">${Entrees.description}</p>
+    </div>`
+    );
+  });
 });
-// Sides.forEach((Sides) => {
-//   DOMSelectors.MainBody.insertAdjacentHTML(
-//     "afterbegin",
-//     `<p>${Sides.description}</p>`
-//   );
+DOMSelectors.sidesbtn.addEventListener("click", function () {
+  DOMSelectors.flexboxes.innerHTML = "";
+  Sides.forEach((Sides) => {
+    DOMSelectors.flexboxes.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="flexbox-content">
+      <h3 class="text">${Sides.item}</h3>
+      <img
+      src="${Sides.img}"
+      alt="${Sides.item}"/>
+      <p class="subtext">${Sides.description}</p>
+    </div>`
+    );
+  });
+});
+DOMSelectors.adrinksbtn.addEventListener("click", function () {
+  DOMSelectors.flexboxes.innerHTML = "";
+  ADrinks.forEach((ADrinks) => {
+    DOMSelectors.flexboxes.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="flexbox-content">
+      <h3 class="text">${ADrinks.item}</h3>
+      <img
+      src="${ADrinks.img}"
+      alt="${ADrinks.item}"/>
+      <p class="subtext">${ADrinks.description}</p>
+    </div>`
+    );
+  });
+});
+// DOMSelectors.entreesbtn.addEventListener("click", function () {
+//   DOMSelectors.flexboxes.innerHTML = "";
+//   Entrees.forEach((Entrees) => {
+//     DOMSelectors.flexboxes.insertAdjacentHTML(
+//       "afterbegin",
+//       `<div class="flexbox-content">
+//       <h3 class="text">${Entrees.item}</h3>
+//       <img
+//       src="${Entrees.img}"
+//       alt="${Entrees.item}"/>
+//       <p class="subtext">${Entrees.description}</p>
+//     </div>`
+//     );
+//   });
 // });
 // ADrinks.forEach((ADrinks) => {
 //   DOMSelectors.MainBody.insertAdjacentHTML(
 //     "afterbegin",
-//     `<p>${ADrinks.description}</p>`
+//     `<div class="flexbox-content">
+//     <h3 class="text">${Entrees.item}</h3>
+//     <img
+//     src="${Entrees.img}"
+//     alt="${Entrees.item}"/>
+//     <p class="subtext">${Entrees.description}</p>
+//   </div>`
 //   );
 // });
 // Drinks.forEach((Drinks) => {
 //   DOMSelectors.MainBody.insertAdjacentHTML(
 //     "afterbegin",
-//     `<p>${Drinks.description}</p>`
+//     `<div class="flexbox-content">
+//     <h3 class="text">${Entrees.item}</h3>
+//     <img
+//     src="${Entrees.img}"
+//     alt="${Entrees.item}"/>
+//     <p class="subtext">${Entrees.description}</p>
+//   </div>`
 //   );
 // });
 // DOMSelectors.flexboxes.innerHTML = "";
@@ -48,9 +102,9 @@ Entrees.forEach((Entrees) => {
 //   DOMSelectors.flexboxes.insertAdjacentHTML(
 //     "afterbegin",
 //     `<img
-//       src="${scary.url}"
-//       class="flexbox-img"
-//     />`
+//        src="${scary.url}"
+//        class="flexbox-img"
+//      />`
 //   );
 // });
 DOMSelectors.themebtn.addEventListener("click", function () {
