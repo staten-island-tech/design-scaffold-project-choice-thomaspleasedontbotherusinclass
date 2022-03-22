@@ -14,7 +14,7 @@ console.log(Sides);
 console.log(ADrinks);
 console.log(Drinks);
 Entrees.forEach((Entrees) => {
-  DOMSelectors.MainBody.insertAdjacentHTML(
+  DOMSelectors.flexboxes.insertAdjacentHTML(
     "afterbegin",
     `<div class="flexbox-content">
     <h3 class="text">${Entrees.item}</h3>

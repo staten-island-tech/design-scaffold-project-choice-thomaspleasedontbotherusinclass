@@ -6,6 +6,15 @@ body,
   box-sizing: border-box;
   font-size: 10px;
 }
+body {
+  background-color: var(--background);
+}
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
 .flexboxes {
   display: flex;
   flex-flow: row wrap;
@@ -15,8 +24,6 @@ body,
   margin: 5rem auto;
 }
 .flexbox-content {
-  border: solid #32292f 10px;
-  background-color: #5762d5;
   width: 90%;
   height: 20rem;
   margin: 5rem auto;
@@ -26,16 +33,17 @@ body,
   justify-content: space-between;
   border-radius: 10%;
   padding: 2rem;
+  background-color: var(--card-background);
 }
 .text {
-  font-size: 2rem;
-  color: white;
+  font-size: var(--h3);
+  color: var(--words);
   text-align: center;
   margin: 1rem auto;
 }
 .subtext {
-  font-size: 1.5rem;
-  color: white;
+  font-size: var(--h4);
+  color: var(--words);
   text-align: left;
   margin: 0.5rem auto;
 }
