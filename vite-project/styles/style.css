@@ -15,6 +15,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.btn {
+  font-size: var(--h5);
+  background-color: var(--teal);
+  color: var(--black);
+}
 .flexboxes {
   display: flex;
   flex-flow: row wrap;
