@@ -13,6 +13,20 @@ console.log(Entrees);
 console.log(Sides);
 console.log(ADrinks);
 console.log(Drinks);
+Entrees.forEach((Entrees) => {
+  DOMSelectors.flexboxes.insertAdjacentHTML(
+    "afterbegin",
+    `<div class="flexbox-content">
+    <h3 class="text">${Entrees.item}</h3>
+    <img
+    src="${Entrees.img}"
+    alt="${Entrees.item}"/>
+    <p class="subtext">${Entrees.description}</p>
+    <p class="subtext">${Entrees.extra1}
+    ${Entrees.extra2}</p>
+  </div>`
+  );
+});
 DOMSelectors.entreesbtn.addEventListener("click", function () {
   DOMSelectors.flexboxes.innerHTML = "";
   Entrees.forEach((Entrees) => {
@@ -24,6 +38,8 @@ DOMSelectors.entreesbtn.addEventListener("click", function () {
       src="${Entrees.img}"
       alt="${Entrees.item}"/>
       <p class="subtext">${Entrees.description}</p>
+      <p class="subtext">${Entrees.extra1}
+      ${Entrees.extra2}</p>
     </div>`
     );
   });
@@ -39,6 +55,8 @@ DOMSelectors.sidesbtn.addEventListener("click", function () {
       src="${Sides.img}"
       alt="${Sides.item}"/>
       <p class="subtext">${Sides.description}</p>
+      <p class="subtext">$${Sides.extracost1} add ketchup
+      $${Sides.extracost2} add mustard</p>
     </div>`
     );
   });
@@ -54,6 +72,25 @@ DOMSelectors.adrinksbtn.addEventListener("click", function () {
       src="${ADrinks.img}"
       alt="${ADrinks.item}"/>
       <p class="subtext">${ADrinks.description}</p>
+      <p class="subtext">$${ADrinks.cost1} a shot
+      $${ADrinks.cost2} a glass
+      $${ADrinks.extracost} for our souvenir cup</p>
+    </div>`
+    );
+  });
+});
+DOMSelectors.drinksbtn.addEventListener("click", function () {
+  DOMSelectors.flexboxes.innerHTML = "";
+  Drinks.forEach((Drinks) => {
+    DOMSelectors.flexboxes.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="flexbox-content">
+      <h3 class="text">${Drinks.item}</h3>
+      <img
+      src="${Drinks.img}"
+      alt="${Drinks.item}"/>
+      <p class="subtext">${Drinks.description}</p>
+      <p class="subtext">$${Drinks.cost}</p>
     </div>`
     );
   });
