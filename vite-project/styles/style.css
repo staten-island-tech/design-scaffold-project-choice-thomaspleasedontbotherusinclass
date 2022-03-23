@@ -20,6 +20,11 @@ body {
   font-size: var(--h5);
   background-color: var(--teal);
   color: var(--black);
+  border-radius: 5rem;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  margin: 1rem;
 }
 .flexboxes {
   display: flex;
@@ -30,16 +35,16 @@ body {
   margin: 5rem auto;
 }
 .flexbox-content {
-  width: 90%;
+  width: 40%;
   height: 20rem;
   margin: 5rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border-radius: 10%;
   padding: 2rem;
   background-color: var(--card-background);
+  border-radius: 5rem;
 }
 .text {
   font-size: var(--h3);
