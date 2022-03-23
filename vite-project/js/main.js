@@ -19,28 +19,119 @@ Entrees.forEach((Entrees) => {
     `<div class="flexbox-content">
     <h3 class="text">${Entrees.item}</h3>
     <img
-    src=""
+    src="${Entrees.img}"
     alt="${Entrees.item}"/>
     <p class="subtext">${Entrees.description}</p>
+    <p class="subtext">${Entrees.extra1}
+    ${Entrees.extra2}</p>
   </div>`
   );
 });
-// Sides.forEach((Sides) => {
-//   DOMSelectors.MainBody.insertAdjacentHTML(
-//     "afterbegin",
-//     `<p>${Sides.description}</p>`
-//   );
+DOMSelectors.entreesbtn.addEventListener("click", function () {
+  DOMSelectors.flexboxes.innerHTML = "";
+  Entrees.forEach((Entrees) => {
+    DOMSelectors.flexboxes.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="flexbox-content">
+      <h3 class="text">${Entrees.item}</h3>
+      <img
+      src="${Entrees.img}"
+      alt="${Entrees.item}"/>
+      <p class="subtext">${Entrees.description}</p>
+      <p class="subtext">${Entrees.extra1}
+      ${Entrees.extra2}</p>
+    </div>`
+    );
+  });
+});
+DOMSelectors.sidesbtn.addEventListener("click", function () {
+  DOMSelectors.flexboxes.innerHTML = "";
+  Sides.forEach((Sides) => {
+    DOMSelectors.flexboxes.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="flexbox-content">
+      <h3 class="text">${Sides.item}</h3>
+      <img
+      src="${Sides.img}"
+      alt="${Sides.item}"/>
+      <p class="subtext">${Sides.description}</p>
+      <p class="subtext">$${Sides.extracost1} add ketchup
+      $${Sides.extracost2} add mustard</p>
+    </div>`
+    );
+  });
+});
+DOMSelectors.adrinksbtn.addEventListener("click", function () {
+  DOMSelectors.flexboxes.innerHTML = "";
+  ADrinks.forEach((ADrinks) => {
+    DOMSelectors.flexboxes.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="flexbox-content">
+      <h3 class="text">${ADrinks.item}</h3>
+      <img
+      src="${ADrinks.img}"
+      alt="${ADrinks.item}"/>
+      <p class="subtext">${ADrinks.description}</p>
+      <p class="subtext">$${ADrinks.cost1} a shot
+      $${ADrinks.cost2} a glass
+      $${ADrinks.extracost} for our souvenir cup</p>
+    </div>`
+    );
+  });
+});
+DOMSelectors.drinksbtn.addEventListener("click", function () {
+  DOMSelectors.flexboxes.innerHTML = "";
+  Drinks.forEach((Drinks) => {
+    DOMSelectors.flexboxes.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="flexbox-content">
+      <h3 class="text">${Drinks.item}</h3>
+      <img
+      src="${Drinks.img}"
+      alt="${Drinks.item}"/>
+      <p class="subtext">${Drinks.description}</p>
+      <p class="subtext">$${Drinks.cost}</p>
+    </div>`
+    );
+  });
+});
+// DOMSelectors.entreesbtn.addEventListener("click", function () {
+//   DOMSelectors.flexboxes.innerHTML = "";
+//   Entrees.forEach((Entrees) => {
+//     DOMSelectors.flexboxes.insertAdjacentHTML(
+//       "afterbegin",
+//       `<div class="flexbox-content">
+//       <h3 class="text">${Entrees.item}</h3>
+//       <img
+//       src="${Entrees.img}"
+//       alt="${Entrees.item}"/>
+//       <p class="subtext">${Entrees.description}</p>
+//     </div>`
+//     );
+//   });
 // });
 // ADrinks.forEach((ADrinks) => {
 //   DOMSelectors.MainBody.insertAdjacentHTML(
 //     "afterbegin",
-//     `<p>${ADrinks.description}</p>`
+//     `<div class="flexbox-content">
+//     <h3 class="text">${Entrees.item}</h3>
+//     <img
+//     src="${Entrees.img}"
+//     alt="${Entrees.item}"/>
+//     <p class="subtext">${Entrees.description}</p>
+//   </div>`
 //   );
 // });
 // Drinks.forEach((Drinks) => {
 //   DOMSelectors.MainBody.insertAdjacentHTML(
 //     "afterbegin",
-//     `<p>${Drinks.description}</p>`
+//     `<div class="flexbox-content">
+//     <h3 class="text">${Entrees.item}</h3>
+//     <img
+//     src="${Entrees.img}"
+//     alt="${Entrees.item}"/>
+//     <p class="subtext">${Entrees.description}</p>
+//   </div>`
 //   );
 // });
 // DOMSelectors.flexboxes.innerHTML = "";
@@ -48,9 +139,9 @@ Entrees.forEach((Entrees) => {
 //   DOMSelectors.flexboxes.insertAdjacentHTML(
 //     "afterbegin",
 //     `<img
-//       src="${scary.url}"
-//       class="flexbox-img"
-//     />`
+//        src="${scary.url}"
+//        class="flexbox-img"
+//      />`
 //   );
 // });
 DOMSelectors.themebtn.addEventListener("click", function () {
