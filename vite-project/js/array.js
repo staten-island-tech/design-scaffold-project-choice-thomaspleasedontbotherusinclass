@@ -7,7 +7,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$5 add an extra patty with vegan cheese",
     extra2: "$3 add 4 pieces of vegan bacon",
-    img: "",
+    img: "public/Vegan Burger.png",
   },
   {
     item: "Vegan Chili Dogs",
