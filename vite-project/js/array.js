@@ -17,7 +17,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.5 add onions",
     extra2: "$1 add vegan cheese",
-    img: "",
+    img: "public/Chili Dog.png",
   },
   {
     item: "Vegan Hot Dog",
@@ -27,7 +27,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.5 add ketchup",
     extra2: "$0.5 add mustard",
-    img: "",
+    img: "public/Hot Og.png",
   },
   {
     item: "Vegan Chicken Sandwich",
