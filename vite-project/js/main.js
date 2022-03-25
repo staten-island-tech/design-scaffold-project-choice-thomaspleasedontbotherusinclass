@@ -95,55 +95,6 @@ DOMSelectors.drinksbtn.addEventListener("click", function () {
     );
   });
 });
-// DOMSelectors.entreesbtn.addEventListener("click", function () {
-//   DOMSelectors.flexboxes.innerHTML = "";
-//   Entrees.forEach((Entrees) => {
-//     DOMSelectors.flexboxes.insertAdjacentHTML(
-//       "afterbegin",
-//       `<div class="flexbox-content">
-//       <h3 class="text">${Entrees.item}</h3>
-//       <img
-//       src="${Entrees.img}"
-//       alt="${Entrees.item}"/>
-//       <p class="subtext">${Entrees.description}</p>
-//     </div>`
-//     );
-//   });
-// });
-// ADrinks.forEach((ADrinks) => {
-//   DOMSelectors.MainBody.insertAdjacentHTML(
-//     "afterbegin",
-//     `<div class="flexbox-content">
-//     <h3 class="text">${Entrees.item}</h3>
-//     <img
-//     src="${Entrees.img}"
-//     alt="${Entrees.item}"/>
-//     <p class="subtext">${Entrees.description}</p>
-//   </div>`
-//   );
-// });
-// Drinks.forEach((Drinks) => {
-//   DOMSelectors.MainBody.insertAdjacentHTML(
-//     "afterbegin",
-//     `<div class="flexbox-content">
-//     <h3 class="text">${Entrees.item}</h3>
-//     <img
-//     src="${Entrees.img}"
-//     alt="${Entrees.item}"/>
-//     <p class="subtext">${Entrees.description}</p>
-//   </div>`
-//   );
-// });
-// DOMSelectors.flexboxes.innerHTML = "";
-// scary.forEach((scary) => {
-//   DOMSelectors.flexboxes.insertAdjacentHTML(
-//     "afterbegin",
-//     `<img
-//        src="${scary.url}"
-//        class="flexbox-img"
-//      />`
-//   );
-// });
 DOMSelectors.themebtn.addEventListener("click", function () {
   if (document.body.classList.contains("light")) {
     document.body.classList.add("dark");
