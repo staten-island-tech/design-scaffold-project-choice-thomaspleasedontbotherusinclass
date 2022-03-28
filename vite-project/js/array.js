@@ -47,7 +47,7 @@ const MenuItems = [
     type: "Side",
     extracost1: 0.5,
     extracost2: 1,
-    img: "",
+    img: "Curly Fries.png",
   },
   {
     item: "Onion Rings",
@@ -57,7 +57,7 @@ const MenuItems = [
     type: "Side",
     extracost1: 0.5,
     extracost2: 1,
-    img: "",
+    img: "Onion Rings.png",
   },
   {
     item: "Original Fries",
@@ -67,7 +67,7 @@ const MenuItems = [
     type: "Side",
     extracost1: 0.5,
     extracost2: 1,
-    img: "",
+    img: "French Fries.png",
   },
   {
     item: "Crinkle Cut Fries",
@@ -77,7 +77,7 @@ const MenuItems = [
     type: "Side",
     extracost1: 0.5,
     extracost2: 1,
-    img: "",
+    img: "Crinkle Cut Fries.png",
   },
   {
     item: "Plant Style Fries",
@@ -87,7 +87,7 @@ const MenuItems = [
     type: "Side",
     extracost1: 0.5,
     extracost2: 1,
-    img: "",
+    img: "Animal Style Fries.png",
   },
   {
     item: "Jack Daniels",
@@ -97,7 +97,7 @@ const MenuItems = [
     description:
       "Enjoy a smooth silky glass of Jack Daniels whisky on the rocks or as a shot.",
     type: "Alcoholic Drink",
-    img: "",
+    img: "Jack Daniels.png",
   },
   {
     item: "The Macallan",
@@ -107,7 +107,7 @@ const MenuItems = [
     description:
       "Enjoy a smooth silky glass of The Macallan whisky on the rocks or as a shot.",
     type: "Alcoholic Drink",
-    img: "",
+    img: "macallans.png",
   },
   {
     item: "Dewar's",
@@ -117,7 +117,7 @@ const MenuItems = [
     description:
       "Enjoy a smooth silky glass of Dewar's Blended Scotch whisky on the rocks or as a shot.",
     type: "Alcoholic Drink",
-    img: "",
+    img: "dewards.png",
   },
   {
     item: "Fat Man Wine",
@@ -127,7 +127,7 @@ const MenuItems = [
     description:
       "Enjoy a sweet glass of Fat Man Wine. Your choice of Pinot Noir, Chardonnay or Merlot.",
     type: "Alcoholic Drink",
-    img: "",
+    img: "fat bastard 1.png",
   },
   {
     item: "Miller Light",
@@ -137,7 +137,7 @@ const MenuItems = [
     description:
       "The classic American beer. Enjoy a cold can, or a glass straight out of the keg.",
     type: "Alcoholic Drink",
-    img: "",
+    img: "miller lite.png",
   },
   {
     item: "Bud Light",
@@ -147,7 +147,7 @@ const MenuItems = [
     description:
       "The classic American beer. Enjoy a cold can, or a glass straight out of the keg.",
     type: "Alcoholic Drink",
-    img: "",
+    img: "bud light.png",
   },
   {
     item: "Coca-Cola",
@@ -155,7 +155,7 @@ const MenuItems = [
     description:
       "The classic American drink is straight from Mexico. Made with full fat cane sugar. No diet varieties offered.",
     type: "Drink",
-    img: "",
+    img: "coke.png",
   },
   {
     item: "Fanta",
@@ -163,7 +163,7 @@ const MenuItems = [
     description:
       "The classic American drink is straight from Mexico. Made with full fat cane sugar. No diet varieties offered.",
     type: "Drink",
-    img: "",
+    img: "fanta.png",
   },
   {
     item: "Vegan Milkshake",
@@ -171,21 +171,21 @@ const MenuItems = [
     description:
       "The classic American treat converted for the vegans. Made with coconut ice cream and almond milk.",
     type: "Drink",
-    img: "",
+    img: "milkshake.png",
   },
   {
     item: "Red Bull",
     cost: 5,
     description: "Get yourself up and running again after your meal!",
     type: "Drink",
-    img: "",
+    img: "Redbull.png",
   },
   {
     item: "Monster Energy",
     cost: 5,
     description: "Get yourself up and running again after your meal!",
     type: "Drink",
-    img: "",
+    img: "Monster.png",
   },
 ];
 export { MenuItems };
