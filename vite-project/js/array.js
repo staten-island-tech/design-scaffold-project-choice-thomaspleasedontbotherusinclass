@@ -7,7 +7,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$5 add an extra patty with vegan cheese",
     extra2: "$3 add 4 pieces of vegan bacon",
-    img: "",
+    img: "Vegan Burger.png",
   },
   {
     item: "Vegan Chili Dogs",
@@ -17,7 +17,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.5 add onions",
     extra2: "$1 add vegan cheese",
-    img: "",
+    img: "Chili Dog.png",
   },
   {
     item: "Vegan Hot Dog",
@@ -27,7 +27,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.5 add ketchup",
     extra2: "$0.5 add mustard",
-    img: "",
+    img: "Hot Og.png",
   },
   {
     item: "Vegan Chicken Sandwich",
@@ -37,7 +37,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.5 add ketchup",
     extra2: "$0.5 add mustard",
-    img: "",
+    img: "Vegan Chicken Burger.png",
   },
   {
     item: "Curly Fries",

@@ -8,6 +8,8 @@ body,
 }
 body {
   background-color: var(--background);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 .buttons {
   display: flex;
@@ -21,10 +23,12 @@ body {
   background-color: var(--teal);
   color: var(--black);
   border-radius: 5rem;
-  width: 10rem;
+  width: 12rem;
   height: 3rem;
   border: none;
-  margin: 1rem;
+  margin: 1rem auto;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 .flexboxes {
   display: flex;
@@ -36,7 +40,6 @@ body {
 }
 .flexbox-content {
   width: 40%;
-  height: 20rem;
   margin: 5rem auto;
   display: flex;
   flex-direction: column;
@@ -45,18 +48,24 @@ body {
   padding: 1rem;
   background-color: var(--card-background);
   border-radius: 5rem;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 .text {
   font-size: var(--h3);
   color: var(--words);
   text-align: center;
   margin: 1rem auto;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 .subtext {
   font-size: var(--h4);
   color: var(--words);
   text-align: left;
   margin: 0.5rem auto;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 :root {
@@ -86,4 +95,10 @@ body {
   --words: var(--white);
   --background: var(--dark-green);
   --card-background: var(--green);
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+.flexbox-content:hover {
+  transform: scale(1.05);
 }
