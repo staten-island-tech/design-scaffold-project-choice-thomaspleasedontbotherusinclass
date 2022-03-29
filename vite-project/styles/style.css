@@ -8,6 +8,7 @@ body,
 }
 body {
   background-color: var(--background);
+  transition-property: background-color;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
@@ -27,6 +28,7 @@ body {
   height: 3rem;
   border: none;
   margin: 1rem auto;
+  transition-property: transform;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
@@ -48,6 +50,16 @@ body {
   padding: 2rem;
   background-color: var(--card-background);
   border-radius: 5rem;
+  transition-property: background-color transform box-shadow;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.header {
+  font-size: var(--h1);
+  color: var(--words);
+  text-align: center;
+  margin: 1rem auto;
+  transition-property: color;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
@@ -56,6 +68,7 @@ body {
   color: var(--words);
   text-align: center;
   margin: 1rem auto;
+  transition-property: color;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
@@ -76,6 +89,8 @@ body {
   --teal: #11b4e8;
   --black: #000;
   --white: #fff;
+  --gray: #000000;
+  --light-gray: #667385;
 
   /*Typography*/
   --h1: 4.209rem;
@@ -89,16 +104,19 @@ body {
   --words: var(--black);
   --background: var(--light-green);
   --card-background: var(--mint);
+  --card-shadow: var(--light-gray);
 }
 
 .dark {
   --words: var(--white);
   --background: var(--dark-green);
   --card-background: var(--green);
+  --card-shadow: var(--gray);
 }
 .btn:hover {
   transform: scale(1.05);
 }
 .flexbox-content:hover {
   transform: scale(1.05);
+  box-shadow: 10px 10px 30px var(--card-shadow);
 }
