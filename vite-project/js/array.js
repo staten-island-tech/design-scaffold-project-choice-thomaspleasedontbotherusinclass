@@ -15,7 +15,7 @@ const MenuItems = [
     description:
       "Classic American chili has the perfect balance of ground beef and chili beans. Enjoy that same great chili taste made with organic chili beans and Sweet Earth Hot dogs. Onions and cheese are optional.",
     type: "Entree",
-    extra1: "$0.5 add onions",
+    extra1: "$0.50 add onions",
     extra2: "$1 add vegan cheese",
     img: "Chili Dog.png",
   },
@@ -25,8 +25,8 @@ const MenuItems = [
     description:
       "The classic American hot dog revamped for the vegan market using Sweet Earth hot dogs. Ketchup and mustard optional.",
     type: "Entree",
-    extra1: "$0.5 add ketchup",
-    extra2: "$0.5 add mustard",
+    extra1: "$0.50 add ketchup",
+    extra2: "$0.50 add mustard",
     img: "Hot Og.png",
   },
   {
@@ -35,8 +35,8 @@ const MenuItems = [
     description:
       "Enjoy our crispy vegan chicken sandwich made entirely of seitan. Enjoy in either original or spicy. Comes with lettuce, tomatoes, and your choice of sauce.",
     type: "Entree",
-    extra1: "$0.5 add ketchup",
-    extra2: "$0.5 add mustard",
+    extra1: "$0.50 add ketchup",
+    extra2: "$0.50 add mustard",
     img: "Vegan Chicken Burger.png",
   },
   {

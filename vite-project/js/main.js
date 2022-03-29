@@ -55,7 +55,7 @@ DOMSelectors.sidesbtn.addEventListener("click", function () {
       src="${Sides.img}"
       alt="${Sides.item}"/>
       <p class="subtext">${Sides.description}</p>
-      <p class="subtext">$${Sides.extracost1} add ketchup
+      <p class="subtext">$${Sides.extracost1}0 add ketchup
       $${Sides.extracost2} add mustard</p>
     </div>`
     );
