@@ -89,7 +89,6 @@ body {
   --teal: #11b4e8;
   --black: #000;
   --white: #fff;
-  --gray: #000000;
   --light-gray: #667385;
 
   /*Typography*/
@@ -111,7 +110,7 @@ body {
   --words: var(--white);
   --background: var(--dark-green);
   --card-background: var(--green);
-  --card-shadow: var(--gray);
+  --card-shadow: var(--black);
 }
 .btn:hover {
   transform: scale(1.05);
