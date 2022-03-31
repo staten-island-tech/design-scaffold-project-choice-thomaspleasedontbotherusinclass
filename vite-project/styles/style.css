@@ -86,7 +86,7 @@ body {
 }
 
 :root {
-  --green: #4d4e2c;
+  --blue: #445f50;
   --dark-green: #1e3231;
   --light-green: #babd89;
   --mint: #d8dabe;
@@ -113,7 +113,7 @@ body {
 .dark {
   --words: var(--white);
   --background: var(--dark-green);
-  --card-background: var(--green);
+  --card-background: var(--blue);
   --card-shadow: var(--black);
 }
 .btn:hover {
