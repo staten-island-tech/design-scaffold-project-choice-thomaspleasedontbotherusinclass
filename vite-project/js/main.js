@@ -18,7 +18,7 @@ Entrees.forEach((Entrees) => {
     "afterbegin",
     `<div class="flexbox-content">
     <h3 class="text">${Entrees.item}</h3>
-    <img 
+    <img class="img"
     src="${Entrees.img}"
     alt="${Entrees.item}"/>
     <p class="subtext">$${Entrees.cost}</p>
@@ -35,7 +35,7 @@ DOMSelectors.entreesbtn.addEventListener("click", function () {
       "afterbegin",
       `<div class="flexbox-content">
       <h3 class="text">${Entrees.item}</h3>
-      <img 
+      <img class="img"
       src="${Entrees.img}"
       alt="${Entrees.item}"/>
       <p class="subtext">$${Entrees.cost}</p>
@@ -53,7 +53,7 @@ DOMSelectors.sidesbtn.addEventListener("click", function () {
       "afterbegin",
       `<div class="flexbox-content">
       <h3 class="text">${Sides.item}</h3>
-      <img 
+      <img class="img"
       src="${Sides.img}"
       alt="${Sides.item}"/>
       <p class="subtext">$${Sides.cost}</p>
@@ -71,7 +71,7 @@ DOMSelectors.adrinksbtn.addEventListener("click", function () {
       "afterbegin",
       `<div class="flexbox-content">
       <h3 class="text">${ADrinks.item}</h3>
-      <img 
+      <img class="img"
       src="${ADrinks.img}"
       alt="${ADrinks.item}"/>
       <p class="subtext">${ADrinks.description}</p>
@@ -89,7 +89,7 @@ DOMSelectors.drinksbtn.addEventListener("click", function () {
       "afterbegin",
       `<div class="flexbox-content">
       <h3 class="text">${Drinks.item}</h3>
-      <img 
+      <img class="img"
       src="${Drinks.img}"
       alt="${Drinks.item}"/>
       <p class="subtext">$${Drinks.cost}</p>
