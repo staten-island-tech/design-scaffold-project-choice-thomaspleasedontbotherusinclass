@@ -17,7 +17,7 @@ Entrees.forEach((Entrees) => {
   DOMSelectors.flexboxes.insertAdjacentHTML(
     "afterbegin",
     `<div class="flexbox-content">
-    <h3 class="text">${Entrees.item}</h3>
+    <h2 class="text">${Entrees.item}</h2>
     <img class="img"
     src="${Entrees.img}"
     alt="${Entrees.item}"/>
@@ -34,7 +34,7 @@ DOMSelectors.entreesbtn.addEventListener("click", function () {
     DOMSelectors.flexboxes.insertAdjacentHTML(
       "afterbegin",
       `<div class="flexbox-content">
-      <h3 class="text">${Entrees.item}</h3>
+      <h2 class="text">${Entrees.item}</h2>
       <img class="img"
       src="${Entrees.img}"
       alt="${Entrees.item}"/>
@@ -52,13 +52,13 @@ DOMSelectors.sidesbtn.addEventListener("click", function () {
     DOMSelectors.flexboxes.insertAdjacentHTML(
       "afterbegin",
       `<div class="flexbox-content">
-      <h3 class="text">${Sides.item}</h3>
+      <h2 class="text">${Sides.item}</h2>
       <img class="img"
       src="${Sides.img}"
       alt="${Sides.item}"/>
       <p class="subtext">$${Sides.cost}</p>
       <p class="subtext">${Sides.description}</p>
-      <p class="subtext">$${Sides.extracost1}0 add ketchup
+      <p class="subtext">$${Sides.extracost1} add ketchup
       $${Sides.extracost2} add mustard</p>
     </div>`
     );
@@ -70,7 +70,7 @@ DOMSelectors.adrinksbtn.addEventListener("click", function () {
     DOMSelectors.flexboxes.insertAdjacentHTML(
       "afterbegin",
       `<div class="flexbox-content">
-      <h3 class="text">${ADrinks.item}</h3>
+      <h2 class="text">${ADrinks.item}</h2>
       <img class="img"
       src="${ADrinks.img}"
       alt="${ADrinks.item}"/>
@@ -88,7 +88,7 @@ DOMSelectors.drinksbtn.addEventListener("click", function () {
     DOMSelectors.flexboxes.insertAdjacentHTML(
       "afterbegin",
       `<div class="flexbox-content">
-      <h3 class="text">${Drinks.item}</h3>
+      <h2 class="text">${Drinks.item}</h2>
       <img class="img"
       src="${Drinks.img}"
       alt="${Drinks.item}"/>
