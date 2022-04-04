@@ -123,3 +123,31 @@ body {
   transform: scale(1.05);
   box-shadow: 10px 10px 30px var(--card-shadow);
 }
+
++ @media (max-width: 1024px) {
+  html,
+  body,
+  * {
+    font-size: 0.6rem;
+  }
+  .flexbox-content {
+    width: 40%;
+  }
+  .img {
+    height: 5rem;
+  }
+}
+
+@media (max-width: 810px) {
+  html,
+  body,
+  * {
+    font-size: 0.5rem;
+  }
+  .flexbox-content {
+    width: 70%;
+  }
+  .img {
+    height: 20rem;
+  }
+}
