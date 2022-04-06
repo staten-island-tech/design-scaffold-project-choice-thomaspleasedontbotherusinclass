@@ -124,21 +124,21 @@ body {
   box-shadow: 10px 10px 30px var(--card-shadow);
 }
 
-+ @media (max-width: 1370px) {
+@media (max-width: 1370px) {
   html,
   body,
   * {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .flexbox-content {
     width: 70%;
   }
   .img {
-    height: 15rem;
+    height: 30rem;
   }
 }
 
-@media (max-width: 810px) {
+@media (max-width: 1000px) {
   html,
   body,
   * {
@@ -148,6 +148,6 @@ body {
     width: 70%;
   }
   .img {
-    height: 20rem;
+    height: 30rem;
   }
 }
