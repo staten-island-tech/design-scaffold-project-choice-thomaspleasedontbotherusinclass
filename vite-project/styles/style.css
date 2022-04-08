@@ -131,7 +131,7 @@ body {
     font-size: 0.8rem;
   }
   .flexbox-content {
-    width: 70%;
+    width: 80%;
   }
   .img {
     height: 30rem;
@@ -142,12 +142,26 @@ body {
   html,
   body,
   * {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   .flexbox-content {
-    width: 70%;
+    width: 80%;
   }
   .img {
     height: 30rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  html,
+  body,
+  * {
+    font-size: 0.5rem;
+  }
+  .flexbox-content {
+    width: 80%;
+  }
+  .img {
+    height: 20rem;
   }
 }
