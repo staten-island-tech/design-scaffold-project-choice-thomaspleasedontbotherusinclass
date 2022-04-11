@@ -7,7 +7,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$5.00 add an extra patty with vegan cheese",
     extra2: "$3.00 add 4 pieces of vegan bacon",
-    img: "Vegan Burger.png",
+    img: "Onion Rings.png",
   },
   {
     item: "Vegan Chili Dogs",
@@ -17,7 +17,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.50 add onions",
     extra2: "$1.00 add vegan cheese",
-    img: "Chili Dog.png",
+    img: "Onion Rings.png",
   },
   {
     item: "Vegan Hot Dog",
@@ -27,7 +27,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.50 add ketchup",
     extra2: "$0.50 add mustard",
-    img: "Hot Og.png",
+    img: "Onion Rings.png",
   },
   {
     item: "Vegan Chicken Sandwich",
@@ -37,7 +37,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.50 add ketchup",
     extra2: "$0.50 add mustard",
-    img: "Vegan Chicken Burger.png",
+    img: "Onion Rings.png",
   },
   {
     item: "Curly Fries",
@@ -47,7 +47,7 @@ const MenuItems = [
     type: "Side",
     extracost1: "$0.50",
     extracost2: "$1.00",
-    img: "Curly Fries.png",
+    img: "Onion Rings.png",
   },
   {
     item: "Onion Rings",
@@ -67,7 +67,7 @@ const MenuItems = [
     type: "Side",
     extracost1: "$0.50",
     extracost2: "$1.00",
-    img: "French Fries.png",
+    img: "Onion Rings.png",
   },
   {
     item: "Crinkle Cut Fries",
@@ -77,7 +77,7 @@ const MenuItems = [
     type: "Side",
     extracost1: "$0.50",
     extracost2: "$1.00",
-    img: "Crinkle Cut Fries.png",
+    img: "Onion Rings.png",
   },
   {
     item: "Plant Style Fries",
@@ -87,7 +87,7 @@ const MenuItems = [
     type: "Side",
     extracost1: "$0.50",
     extracost2: "$1.00",
-    img: "Animal Style Fries.png",
+    img: "Onion Rings.png",
   },
   {
     item: "Jack Daniels",
@@ -97,7 +97,7 @@ const MenuItems = [
     description:
       "Enjoy a smooth silky glass of Jack Daniels whisky on the rocks or as a shot.",
     type: "Alcoholic Drink",
-    img: "Jack Daniels.png",
+    img: "miller lite.png",
   },
   {
     item: "The Macallan",
@@ -107,7 +107,7 @@ const MenuItems = [
     description:
       "Enjoy a smooth silky glass of The Macallan whisky on the rocks or as a shot.",
     type: "Alcoholic Drink",
-    img: "macallans.png",
+    img: "miller lite.png",
   },
   {
     item: "Dewar's",
@@ -117,7 +117,7 @@ const MenuItems = [
     description:
       "Enjoy a smooth silky glass of Dewar's Blended Scotch whisky on the rocks or as a shot.",
     type: "Alcoholic Drink",
-    img: "dewards.png",
+    img: "miller lite.png",
   },
   {
     item: "Fat Man Wine",
@@ -127,7 +127,7 @@ const MenuItems = [
     description:
       "Enjoy a sweet glass of Fat Man Wine. Your choice of Pinot Noir, Chardonnay or Merlot.",
     type: "Alcoholic Drink",
-    img: "fat bastard 1.png",
+    img: "miller lite.png",
   },
   {
     item: "Miller Light",
@@ -147,7 +147,7 @@ const MenuItems = [
     description:
       "The classic American beer. Enjoy a cold can, or a glass straight out of the keg.",
     type: "Alcoholic Drink",
-    img: "bud light.png",
+    img: "miller lite.png",
   },
   {
     item: "Coca-Cola",
@@ -155,7 +155,7 @@ const MenuItems = [
     description:
       "The classic American drink is straight from Mexico. Made with full fat cane sugar. No diet varieties offered.",
     type: "Drink",
-    img: "coke.png",
+    img: "miller lite.png",
   },
   {
     item: "Fanta",
@@ -163,7 +163,7 @@ const MenuItems = [
     description:
       "The classic American drink is straight from Mexico. Made with full fat cane sugar. No diet varieties offered.",
     type: "Drink",
-    img: "fanta.png",
+    img: "miller lite.png",
   },
   {
     item: "Vegan Milkshake",
@@ -171,21 +171,21 @@ const MenuItems = [
     description:
       "The classic American treat converted for the vegans. Made with coconut ice cream and almond milk.",
     type: "Drink",
-    img: "milkshake.png",
+    img: "miller lite.png",
   },
   {
     item: "Red Bull",
     cost: "$5.00",
     description: "Get yourself up and running again after your meal!",
     type: "Drink",
-    img: "Redbull.png",
+    img: "miller lite.png",
   },
   {
     item: "Monster Energy",
     cost: "$5.00",
     description: "Get yourself up and running again after your meal!",
     type: "Drink",
-    img: "Monster.png",
+    img: "miller lite.png",
   },
 ];
 export { MenuItems };
