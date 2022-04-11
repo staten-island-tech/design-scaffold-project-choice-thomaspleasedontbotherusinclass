@@ -122,11 +122,6 @@ body {
 }
 
 @media (max-width: 1370px) {
-  html,
-  body,
-  * {
-    font-size: 0.8rem;
-  }
   .flexbox-content {
     width: 70%;
   }
@@ -136,11 +131,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-  html,
-  body,
-  * {
-    font-size: 0.6rem;
-  }
+
   .flexbox-content {
     width: 70%;
   }
@@ -166,7 +157,6 @@ a{
   width: 200px;
   height: 40px;
   line-height: 40px;
-  font-size: 18px;
   font-family: sans-serif;
   text-decoration: none;
   color: var(--words);
