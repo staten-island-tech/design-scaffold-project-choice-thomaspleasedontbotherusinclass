@@ -42,7 +42,6 @@ body {
   transition-property: background-color transform box-shadow;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
-  
 }
 .img {
   height: 30rem;
@@ -105,11 +104,7 @@ body {
   --background: var(--dark-green);
   --card-background: var(--blue);
   --card-shadow: var(--black);
-  --change-color: var(--blue)
-}
-}
-.btn:hover {
-  transform: scale(1.05);
+  --change-color: var(--blue);
 }
 .flexbox-content:hover {
   transform: scale(1.05);
@@ -144,19 +139,7 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-a{
+a {
   display: block;
   width: 200px;
   height: 40px;
@@ -169,15 +152,15 @@ a{
   letter-spacing: 2px;
   text-align: center;
   position: relative;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-a span{
+a span {
   position: relative;
   z-index: 2;
 }
 
-a:after{
+a:after {
   position: absolute;
   content: "";
   top: 0;
@@ -185,13 +168,13 @@ a:after{
   width: 0;
   height: 100%;
   background: var(--change-color);
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-a:hover{
+a:hover {
   color: #fff;
 }
 
-a:hover:after{
+a:hover:after {
   width: 100%;
 }
