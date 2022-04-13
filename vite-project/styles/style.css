@@ -152,3 +152,12 @@ a:hover:after {
     height: 30rem;
   }
 }
+
+@media (max-width: 1000px) {
+  .flexbox-content {
+    width: 70%;
+  }
+  .img {
+    height: 15rem;
+  }
+}
