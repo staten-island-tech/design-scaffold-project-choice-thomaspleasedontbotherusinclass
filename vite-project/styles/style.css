@@ -12,14 +12,47 @@ body {
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
+a {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: var(--words);
+  border: 2px solid var(--words);
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+a span {
+  position: relative;
+  z-index: 2;
+}
+a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--change-color);
+  transition: all 0.35s;
+}
+a:hover {
+  color: #fff;
+}
+a:hover:after {
+  width: 100%;
+}
 .buttons {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: -2rem;
 }
-
 .flexboxes {
   display: flex;
   flex-flow: row wrap;
@@ -47,13 +80,10 @@ body {
   height: 30rem;
 }
 .header {
-  font-size: var(--h1);
-  color: var(--words);
-  text-align: center;
-  margin: 1rem auto;
-  transition-property: color;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 .text {
   font-size: var(--h2);
@@ -72,7 +102,6 @@ body {
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
-
 :root {
   --blue: #445f50;
   --dark-green: #1e3231;
@@ -82,7 +111,6 @@ body {
   --black: #000;
   --white: #fff;
   --light-gray: #667385;
-
   /*Typography*/
   --h1: 4.209rem;
   --h2: 3.157rem;
@@ -90,7 +118,6 @@ body {
   --h4: 1.777rem;
   --h5: 1.45rem;
 }
-
 .light {
   --words: var(--black);
   --background: var(--light-green);
@@ -98,7 +125,6 @@ body {
   --card-shadow: var(--light-gray);
   --change-color: var(--dark-green);
 }
-
 .dark {
   --words: var(--white);
   --background: var(--dark-green);
@@ -110,13 +136,7 @@ body {
   transform: scale(1.05);
   box-shadow: 10px 10px 30px var(--card-shadow);
 }
-
 @media (max-width: 1370px) {
-  html,
-  body,
-  * {
-    font-size: 0.8rem;
-  }
   .flexbox-content {
     width: 70%;
   }
@@ -124,57 +144,11 @@ body {
     height: 30rem;
   }
 }
-
 @media (max-width: 1000px) {
-  html,
-  body,
-  * {
-    font-size: 0.6rem;
-  }
   .flexbox-content {
     width: 70%;
   }
   .img {
     height: 30rem;
   }
-}
-
-a {
-  display: block;
-  width: 200px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 18px;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: var(--words);
-  border: 2px solid var(--words);
-  letter-spacing: 2px;
-  text-align: center;
-  position: relative;
-  transition: all 0.35s;
-}
-
-a span {
-  position: relative;
-  z-index: 2;
-}
-
-a:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: var(--change-color);
-  transition: all 0.35s;
-}
-
-a:hover {
-  color: #fff;
-}
-
-a:hover:after {
-  width: 100%;
 }

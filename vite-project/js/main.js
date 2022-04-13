@@ -25,6 +25,7 @@ Entrees.forEach((Entrees) => {
     <p class="subtext">${Entrees.description}</p>
     <p class="subtext">${Entrees.extra1}
     ${Entrees.extra2}</p>
+    <button>Add To Cart</button>
   </div>`
   );
 });
