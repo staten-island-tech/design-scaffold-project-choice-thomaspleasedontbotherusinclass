@@ -3,7 +3,7 @@ const MenuItems = [
     item: "Vegan Burger",
     cost: "$12.00",
     description:
-      "Enjoy the scale crushing taste of our famous bypass burger without the consequences of eating meat. Our burgers are made of 100% impossible meat and cooked on the grill using corn oil in order to replicate that classic heart attack grill taste. Served with cheese lettuce and onions with extra patties and bacon optional.",
+      "Classic American burger has the perfect taste and texture. Enjoy our exclusive Heart Attack Grill Beyond Burger. Add as many patties and pieces of bacon as you want!",
     type: "Entree",
     extra1: "$5.00 add an extra patty with vegan cheese",
     extra2: "$3.00 add 4 pieces of vegan bacon",

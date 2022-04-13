@@ -102,6 +102,13 @@ a:hover:after {
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
+.cart-btn {
+  background-color: var(--teal);
+  width: 9rem;
+  height: 3rem;
+  font-size: var(--h5);
+  border-radius: 10px;
+}
 :root {
   --blue: #445f50;
   --dark-green: #1e3231;
