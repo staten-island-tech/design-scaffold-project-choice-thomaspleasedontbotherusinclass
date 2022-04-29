@@ -147,15 +147,21 @@ a:hover:after {
   .flexbox-content {
     width: 70%;
   }
-  .img {
-    height: 30rem;
+  a {
+    transform: scale(0.75);
   }
+  /* .img {
+    height: 30rem;
+  } */
 }
 @media (max-width: 1000px) {
   .flexbox-content {
     width: 70%;
   }
-  .img {
-    height: 30rem;
+  a {
+    transform: scale(0.5);
   }
+  /* .img {
+    height: 30rem;
+  } */
 }
