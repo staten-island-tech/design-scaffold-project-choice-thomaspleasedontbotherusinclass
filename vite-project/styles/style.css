@@ -145,7 +145,7 @@ a:hover:after {
 }
 @media (max-width: 1370px) {
   .flexbox-content {
-    width: 70%;
+    width: 80%;
   }
   a {
     transform: scale(0.75);
@@ -155,8 +155,13 @@ a:hover:after {
   } */
 }
 @media (max-width: 1000px) {
+  html,
+  body,
+  * {
+    font-size: 0.5rem;
+  }
   .flexbox-content {
-    width: 70%;
+    width: 80%;
   }
   a {
     transform: scale(0.5);
@@ -164,4 +169,58 @@ a:hover:after {
   /* .img {
     height: 30rem;
   } */
+}
+
+@media (max-width: 750px) {
+  html,
+  body,
+  * {
+    font-size: 0.5rem;
+  }
+  .flexbox-content {
+    width: 70%;
+  }
+  .img {
+    height: 15rem;
+  }
+}
+
+a {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: var(--words);
+  border: 2px solid var(--words);
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+a span {
+  position: relative;
+  z-index: 2;
+}
+
+a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--change-color);
+  transition: all 0.35s;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:hover:after {
+  width: 100%;
 }
