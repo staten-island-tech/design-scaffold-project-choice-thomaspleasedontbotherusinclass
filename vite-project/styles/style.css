@@ -160,6 +160,7 @@ a:hover:after {
   a {
     transform: scale(0.75);
   }
+
   /* .img {
     height: 30rem;
   } */
@@ -175,6 +176,9 @@ a:hover:after {
   }
   a {
     transform: scale(0.5);
+  }
+  a span {
+    font-size: 2rem;
   }
   /* .img {
     height: 30rem;
@@ -192,5 +196,8 @@ a:hover:after {
   }
   .img {
     height: 15rem;
+  }
+  a span {
+    font-size: 2rem;
   }
 }
