@@ -112,3 +112,22 @@ DOMSelectors.themebtn.addEventListener("click", function () {
     document.body.classList.remove("dark");
   }
 });
+
+let cart = [];
+let total = null;
+function addToCart(event) {
+  const item = parseInt(event.target.id, 10);
+  console.log(item);
+  cart.push(shop[item]);
+  total +=shop[item].price;
+  DOMSelectors.cart.innerHTML = "";
+ cart.forEach((item)=>{
+   DOMSelectors.total.innerHTML=`Total: $${total}`;
+   DOMSelectors.cart.insertAdjacentHTML("afterbegin", `<h4>${item.name}</h4>`)
+ })
+}
+
+const buttons = Array.from(document.querySelectorAll(".add-button"));
+buttons.forEach((button)=> {
+  button.addEventListener("click", addToCart);
+});
