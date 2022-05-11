@@ -6,5 +6,7 @@ const DOMSelectors = {
   adrinksbtn: document.querySelector("#adrinks-btn"),
   drinksbtn: document.querySelector("#drinks-btn"),
   cartbtn: document.querySelector(".cart-btn"),
+  total: document.querySelector(".total"),
+  cart: document.querySelector(".cart"),
 };
 export { DOMSelectors };

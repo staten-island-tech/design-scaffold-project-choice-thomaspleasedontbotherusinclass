@@ -91,8 +91,8 @@ const MenuItems = [
   },
   {
     item: "Jack Daniels",
-    cost1: "$5.00",
-    cost2: "$8.00",
+    cost: "$5.00",
+    cost1: "$8.00",
     extracost: "$2.00",
     description:
       "Enjoy a smooth silky glass of Jack Daniels whisky on the rocks or as a shot.",
@@ -101,8 +101,8 @@ const MenuItems = [
   },
   {
     item: "The Macallan",
-    cost1: "$6.00",
-    cost2: "$9.00",
+    cost: "$6.00",
+    cost1: "$9.00",
     extracost: "$2.00",
     description:
       "Enjoy a smooth silky glass of The Macallan whisky on the rocks or as a shot.",
@@ -111,8 +111,8 @@ const MenuItems = [
   },
   {
     item: "Dewar's",
-    cost1: "$6.00",
-    cost2: "$9.00",
+    cost: "$6.00",
+    cost1: "$9.00",
     extracost: "$2.00",
     description:
       "Enjoy a smooth silky glass of Dewar's Blended Scotch whisky on the rocks or as a shot.",
@@ -121,8 +121,8 @@ const MenuItems = [
   },
   {
     item: "Fat Man Wine",
-    cost1: "$6.00",
-    cost2: "$18.00",
+    cost: "$6.00",
+    cost1: "$18.00",
     extracost: "$2.00",
     description:
       "Enjoy a sweet glass of Fat Man Wine. Your choice of Pinot Noir, Chardonnay or Merlot.",
@@ -131,8 +131,8 @@ const MenuItems = [
   },
   {
     item: "Miller Light",
-    cost1: "$4.00",
-    cost2: "$6.00",
+    cost: "$4.00",
+    cost1: "$6.00",
     extracost: "$2.00",
     description:
       "The classic American beer. Enjoy a cold can, or a glass straight out of the keg.",
@@ -141,8 +141,8 @@ const MenuItems = [
   },
   {
     item: "Bud Light",
-    cost1: "$4.00",
-    cost2: "$6.00",
+    cost: "$4.00",
+    cost1: "$6.00",
     extracost: "$2.00",
     description:
       "The classic American beer. Enjoy a cold can, or a glass straight out of the keg.",

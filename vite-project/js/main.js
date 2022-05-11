@@ -78,8 +78,8 @@ DOMSelectors.adrinksbtn.addEventListener("click", function () {
       src="${ADrinks.img}"
       alt="${ADrinks.item}"/>
       <p class="subtext">${ADrinks.description}</p>
-      <p class="subtext">${ADrinks.cost1} a shot
-      ${ADrinks.cost2} a glass
+      <p class="subtext">${ADrinks.cost} a shot
+      ${ADrinks.cost1} a glass
       ${ADrinks.extracost} for our souvenir cup</p>
       <button class="cart-btn">Add To Cart</button>
     </div>`
@@ -118,16 +118,20 @@ let total = null;
 function addToCart(event) {
   const item = parseInt(event.target.id, 10);
   console.log(item);
-  cart.push(shop[item]);
-  total +=shop[item].price;
+  cart.push(MenuItems[item]);
+  total +=
+    Entrees[item].cost ||
+    Sides[item].cost ||
+    ADrinks[item].cost ||
+    Drinks[item].cost;
   DOMSelectors.cart.innerHTML = "";
- cart.forEach((item)=>{
-   DOMSelectors.total.innerHTML=`Total: $${total}`;
-   DOMSelectors.cart.insertAdjacentHTML("afterbegin", `<h4>${item.name}</h4>`)
- })
+  cart.forEach((item) => {
+    DOMSelectors.total.innerHTML = `Total: $${total}`;
+    DOMSelectors.cart.insertAdjacentHTML("afterbegin", `<h4>${item.name}</h4>`);
+  });
 }
 
-const buttons = Array.from(document.querySelectorAll(".add-button"));
-buttons.forEach((button)=> {
+const buttons = Array.from(document.querySelectorAll(".cart-btn"));
+buttons.forEach((button) => {
   button.addEventListener("click", addToCart);
 });
