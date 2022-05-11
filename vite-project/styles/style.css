@@ -119,6 +119,10 @@ a:hover:after {
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
+#cart {
+  margin-top: 1rem;
+  padding: 2rem;
+}
 :root {
   --blue: #445f50;
   --dark-green: #1e3231;
