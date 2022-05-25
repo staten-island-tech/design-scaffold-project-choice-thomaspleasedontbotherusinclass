@@ -29,7 +29,7 @@ Entrees.forEach((Entrees) => {
     <img class="img"
     src="${Entrees.img}"
     alt="${Entrees.item}"/>
-    <p class="subtext">${Entrees.cost}</p>
+    <p class="subtext cost">${Entrees.cost}</p>
     <p class="subtext">${Entrees.description}</p>
     <p class="subtext">${Entrees.extra1}
     ${Entrees.extra2}</p>
@@ -47,7 +47,7 @@ DOMSelectors.entreesbtn.addEventListener("click", function () {
       <img class="img"
       src="${Entrees.img}"
       alt="${Entrees.item}"/>
-      <p class="subtext">${Entrees.cost}</p>
+      <p class="subtext cost">${Entrees.cost}</p>
       <p class="subtext">${Entrees.description}</p>
       <p class="subtext">${Entrees.extra1}
       ${Entrees.extra2}</p>
@@ -66,7 +66,7 @@ DOMSelectors.sidesbtn.addEventListener("click", function () {
       <img class="img"
       src="${Sides.img}"
       alt="${Sides.item}"/>
-      <p class="subtext">${Sides.cost}</p>
+      <p class="subtext cost">${Sides.cost}</p>
       <p class="subtext">${Sides.description}</p>
       <p class="subtext">${Sides.extracost1} add ketchup
       ${Sides.extracost2} add mustard</p>
@@ -85,7 +85,7 @@ DOMSelectors.adrinksbtn.addEventListener("click", function () {
       <img class="img"
       src="${ADrinks.img}"
       alt="${ADrinks.item}"/>
-      <p class="subtext">${ADrinks.description}</p>
+      <p class="subtext cost">${ADrinks.description}</p>
       <p class="subtext">${ADrinks.cost} a shot
       ${ADrinks.cost1} a glass
       ${ADrinks.extracost} for our souvenir cup</p>
@@ -104,7 +104,7 @@ DOMSelectors.drinksbtn.addEventListener("click", function () {
       <img class="img"
       src="${Drinks.img}"
       alt="${Drinks.item}"/>
-      <p class="subtext">${Drinks.cost}</p>
+      <p class="subtext cost">${Drinks.cost}</p>
       <p class="subtext">${Drinks.description}</p>
       
     </div>`

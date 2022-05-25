@@ -7,7 +7,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$5.00 add an extra patty with vegan cheese",
     extra2: "$3.00 add 4 pieces of vegan bacon",
-    img: "OnionRings.png",
+    img: "Veagan Burger.png",
   },
   {
     item: "Vegan Chili Dogs",
@@ -17,7 +17,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.50 add onions",
     extra2: "$1.00 add vegan cheese",
-    img: "ChiliDog.png",
+    img: "Veagan Chili Dog.png",
   },
   {
     item: "Vegan Hot Dog",
@@ -27,7 +27,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.50 add ketchup",
     extra2: "$0.50 add mustard",
-    img: "HotDog.png",
+    img: "Veagan Hot Dog.png",
   },
   {
     item: "Vegan Chicken Sandwich",
@@ -37,7 +37,7 @@ const MenuItems = [
     type: "Entree",
     extra1: "$0.50 add ketchup",
     extra2: "$0.50 add mustard",
-    img: "ChickenSandwich.png",
+    img: "Veagan Chicken Sandwich.png",
   },
   {
     item: "Curly Fries",
@@ -47,7 +47,7 @@ const MenuItems = [
     type: "Side",
     extracost1: "$0.50",
     extracost2: "$1.00",
-    img: "CurlyFries.png",
+    img: "Curly fries.png",
   },
   {
     item: "Onion Rings",
@@ -57,7 +57,7 @@ const MenuItems = [
     type: "Side",
     extracost1: "$0.50",
     extracost2: "$1.00",
-    img: "OnionRings.png",
+    img: "onion rings.png",
   },
   {
     item: "Original Fries",
@@ -67,7 +67,7 @@ const MenuItems = [
     type: "Side",
     extracost1: "$0.50",
     extracost2: "$1.00",
-    img: "FrenchFries.png",
+    img: "Fries.png",
   },
   {
     item: "Crinkle Cut Fries",
@@ -77,17 +77,17 @@ const MenuItems = [
     type: "Side",
     extracost1: "$0.50",
     extracost2: "$1.00",
-    img: "CrinkleCut.png",
+    img: "Crinkle cut fries.png",
   },
   {
     item: "Plant Style Fries",
     cost: "$5.00",
     description:
-      "Enjoy the Californian classic Plant Style Fries, made of 100% organic potatoes to crispy perfection in corn oil, and then doused in onions, our plant sauce, and 100% vegan cheese and mushroom bacon. Comes with your choice of sauce.",
+      "Enjoy the Californian classic Plant Style Fries, made of 100% organic potatoes, and then doused in onions, our plant sauce, and 100% vegan cheese and mushroom bacon. Comes with your choice of sauce.",
     type: "Side",
     extracost1: "$0.50",
     extracost2: "$1.00",
-    img: "AnimalStyle.png",
+    img: "plant fries.png",
   },
   {
     item: "Jack Daniels",

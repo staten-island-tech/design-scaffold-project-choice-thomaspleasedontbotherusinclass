@@ -105,15 +105,17 @@ a:hover:after {
   transition-timing-function: ease-in-out;
 }
 .subtext {
-  font-size: var(--h4);
+  font-size: var(--h3);
   color: var(--words);
-  text-align: left;
+  text-align: center;
   margin: 0.5rem auto;
   padding: 1rem;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
-  font-family: sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
+
+
 .cart-btn {
   background-color: var(--teal);
   width: 9rem;
