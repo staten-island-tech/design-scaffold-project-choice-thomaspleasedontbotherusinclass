@@ -33,7 +33,7 @@ Entrees.forEach((Entrees) => {
     <p class="subtext">${Entrees.description}</p>
     <p class="subtext">${Entrees.extra1}
     ${Entrees.extra2}</p>
-    <button class="cart-btn">Add To Cart</button>
+    
   </div>`
   );
 });
@@ -51,7 +51,7 @@ DOMSelectors.entreesbtn.addEventListener("click", function () {
       <p class="subtext">${Entrees.description}</p>
       <p class="subtext">${Entrees.extra1}
       ${Entrees.extra2}</p>
-      <button class="cart-btn">Add To Cart</button>
+      
     </div>`
     );
   });
@@ -70,7 +70,7 @@ DOMSelectors.sidesbtn.addEventListener("click", function () {
       <p class="subtext">${Sides.description}</p>
       <p class="subtext">${Sides.extracost1} add ketchup
       ${Sides.extracost2} add mustard</p>
-      <button class="cart-btn">Add To Cart</button>
+      
     </div>`
     );
   });
@@ -89,7 +89,7 @@ DOMSelectors.adrinksbtn.addEventListener("click", function () {
       <p class="subtext">${ADrinks.cost} a shot
       ${ADrinks.cost1} a glass
       ${ADrinks.extracost} for our souvenir cup</p>
-      <button class="cart-btn">Add To Cart</button>
+      
     </div>`
     );
   });
@@ -106,7 +106,7 @@ DOMSelectors.drinksbtn.addEventListener("click", function () {
       alt="${Drinks.item}"/>
       <p class="subtext">${Drinks.cost}</p>
       <p class="subtext">${Drinks.description}</p>
-      <button class="cart-btn">Add To Cart</button>
+      
     </div>`
     );
   });
