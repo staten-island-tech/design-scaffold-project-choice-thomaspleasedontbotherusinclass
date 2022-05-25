@@ -4,6 +4,8 @@ import { gsap } from "gsap";
 
 gsap.from(".header", { duration: 2, y: "-100%" , ease: "bounce" })
 gsap.from(".header", { duration: 2, opacity: 0, delay: .2})
+gsap.from(".Phone", { duration: 2, y: "-100%" , ease: "bounce" })
+gsap.from(".Phone", { duration: 2, opacity: 0, delay: .2})
 gsap.from(".flexboxes", { duration: .75, y: "-100%" , ease: "bounce" })
 gsap.from(".wrapper-btn", { duration: 2, x: "-100%" , ease: "bounce" })
 
