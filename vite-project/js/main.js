@@ -1,15 +1,4 @@
 import "../styles/style.css";
-import { gsap } from "gsap";
-
-
-gsap.from(".header", { duration: 2, y: "-100%" , ease: "bounce" })
-gsap.from(".header", { duration: 2, opacity: 0, delay: .2})
-gsap.from(".flexboxes", { duration: .75, y: "-100%" , ease: "bounce" })
-gsap.from(".wrapper-btn", { duration: 2, x: "-100%" , ease: "bounce" })
-
-
-
-
 import { MenuItems } from "./array";
 import { DOMSelectors } from "./DOMSelectors";
 console.log(MenuItems);
@@ -28,7 +17,7 @@ Entrees.forEach((Entrees) => {
   DOMSelectors.flexboxes.insertAdjacentHTML(
     "afterbegin",
     `<div class="flexbox-content">
-    <h2 class="text">$${Entrees.item}</h2>
+    <h2 class="text">${Entrees.item}</h2>
     <img class="img"
     src="${Entrees.img}"
     alt="${Entrees.item}"/>
@@ -46,7 +35,7 @@ DOMSelectors.entreesbtn.addEventListener("click", function () {
     DOMSelectors.flexboxes.insertAdjacentHTML(
       "afterbegin",
       `<div class="flexbox-content">
-      <h2 class="text">$${Entrees.item}</h2>
+      <h2 class="text">${Entrees.item}</h2>
       <img class="img"
       src="${Entrees.img}"
       alt="${Entrees.item}"/>
@@ -65,7 +54,7 @@ DOMSelectors.sidesbtn.addEventListener("click", function () {
     DOMSelectors.flexboxes.insertAdjacentHTML(
       "afterbegin",
       `<div class="flexbox-content">
-      <h2 class="text">$${Sides.item}</h2>
+      <h2 class="text">${Sides.item}</h2>
       <img class="img"
       src="${Sides.img}"
       alt="${Sides.item}"/>
@@ -84,7 +73,7 @@ DOMSelectors.adrinksbtn.addEventListener("click", function () {
     DOMSelectors.flexboxes.insertAdjacentHTML(
       "afterbegin",
       `<div class="flexbox-content">
-      <h2 class="text">$${ADrinks.item}</h2>
+      <h2 class="text">${ADrinks.item}</h2>
       <img class="img"
       src="${ADrinks.img}"
       alt="${ADrinks.item}"/>
@@ -103,7 +92,7 @@ DOMSelectors.drinksbtn.addEventListener("click", function () {
     DOMSelectors.flexboxes.insertAdjacentHTML(
       "afterbegin",
       `<div class="flexbox-content">
-      <h2 class="text">$${Drinks.item}</h2>
+      <h2 class="text">${Drinks.item}</h2>
       <img class="img"
       src="${Drinks.img}"
       alt="${Drinks.item}"/>

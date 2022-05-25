@@ -112,6 +112,7 @@ a:hover:after {
   padding: 1rem;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
+  font-family: sans-serif;
 }
 .cart-btn {
   background-color: var(--teal);
